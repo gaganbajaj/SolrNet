@@ -16,7 +16,7 @@
 
 using System;
 
-namespace SolrNet { 
+namespace SolrNet {
     /// <summary>
     /// Abstract Solr query, used to define operator overloading
     /// </summary>
