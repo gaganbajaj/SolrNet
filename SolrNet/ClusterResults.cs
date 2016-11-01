@@ -6,7 +6,7 @@ namespace SolrNet {
     /// Document cluster
     /// </summary>
     [Serializable]
-    public class Cluster {
+    public class Cluster { 
         /// <summary>
         /// Cluster label
         /// </summary>

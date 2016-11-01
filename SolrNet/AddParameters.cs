@@ -22,7 +22,7 @@ namespace SolrNet
     /// <remarks>
     /// See http://wiki.apache.org/solr/UpdateXmlMessages#Optional_attributes_for_.22add.22
     /// </remarks>
-    public class AddParameters : UpdateParameters {
+    public class AddParameters : UpdateParameters {  
         /// <summary>
         /// Gets or sets the document overwrite option.
         /// </summary>
@@ -37,13 +37,14 @@ namespace SolrNet
     /// CommitWithin works in SOLR 3.6+ - see https://issues.apache.org/jira/browse/SOLR-2280
     /// </remarks>
     public class DeleteParameters : UpdateParameters{
+    public class DeleteParameters : UpdateParameters{ 
 
     }
 
     /// <summary>
     /// Contains parameters that can be specified when making any update to the index.
     /// </summary>
-    public abstract class UpdateParameters {
+    public abstract class UpdateParameters {    
         /// <summary>
         /// Gets or sets the time period (in milliseconds) within which the document will be committed to the index.
         /// </summary>
